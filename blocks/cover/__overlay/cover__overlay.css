@@ -1,0 +1,14 @@
+.cover__overlay {
+  background-image: url(../../../images/cover-trains.jpg);
+  width:100%;
+  padding-top:62.5%;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  opacity: 0.3;
+  object-fit: cover;
+}
+
+.cover__overlay:hover {
+  opacity: 0.8;
+}
