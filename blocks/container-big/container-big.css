@@ -1,27 +1,23 @@
-.container_small {
-  min-width:984px;
+.container-big {
+  width:1184px;
   margin: 0 auto;
 }
 
+
 @media screen and (max-width: 1280px) {
-  .container_small {
-    min-width:928px;
+  .container-big {
     max-width:928px;
-    margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .container_small {
+  .container-big {
     max-width:720px;
-    min-width:720px;
-    margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 720px) {
-  .container_small {
-    min-width:0;
+  .container-big {
     max-width:288px;
   }
 }
