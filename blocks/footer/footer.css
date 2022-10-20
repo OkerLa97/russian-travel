@@ -5,22 +5,25 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 1280px) {
-  .footer {
-    min-width:928px;
-  }
-}
-
 @media screen and (max-width: 1024px) {
   .footer {
-    min-width:720px;
+    min-width:0;
+    width: calc(100% - (48px * 2));
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
   .footer {
-    margin: 64px auto 24px auto;
-    min-width:288px;
+    min-width:0;
+    margin: 88px auto 24px auto;
+    width: calc(100% - (24px * 2));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
     flex-direction: column;
+    margin: 64px auto 24px auto;
+    width: calc(100% - (16px * 2));
   }
 }
