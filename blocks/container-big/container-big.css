@@ -21,7 +21,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
   .container-big {
     width: calc(100% - (16px * 2));
   }

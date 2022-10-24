@@ -1,14 +1,15 @@
 .cover__overlay {
+  position:absolute;
   background-image: url(../../../images/cover-trains.jpg);
   width:100%;
-  padding-top:62.5%;
-  background-size: contain;
+  height:100%;
   display: flex;
   flex-direction: column;
-  opacity: 0.3;
   object-fit: cover;
-}
 
-.cover__overlay:hover {
   opacity: 0.8;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }

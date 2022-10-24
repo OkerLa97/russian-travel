@@ -8,4 +8,5 @@
   display: flex;
   flex-direction: column;
   margin-top: 33px;
+  list-style-type: none;
 }
