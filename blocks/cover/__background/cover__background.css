@@ -4,7 +4,7 @@
   max-width: 1184px;
   min-height: 740px;
   flex-direction: column;
-  background-image: url(../../images/cover-trains.jpg);
+  background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -12,11 +12,10 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  color: #000;
 }
 
 .cover__background:hover>.cover__overlay {
-  opacity: 0.3;
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {

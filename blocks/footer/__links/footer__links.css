@@ -1,7 +1,12 @@
 .footer__links {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  
   display: flex;
   justify-content: space-between;
   list-style-type: none;
+
+  padding-inline-start: 0;
 }
 
 @media screen and (max-width: 719px) {
@@ -9,7 +14,7 @@
     flex-direction: column;
   }
 
-  .footer__links > li {
+  .footer__links > .footer_li {
     margin-bottom:32px;
   }
 }

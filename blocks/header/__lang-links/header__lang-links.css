@@ -3,9 +3,3 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 18px;
 }
-
-@media screen and (max-width: 320px) {
-  .header__lang-links {
-    grid-gap: 18px;
-  }
-}

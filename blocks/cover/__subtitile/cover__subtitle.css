@@ -1,6 +1,9 @@
 .cover__subtitle {
+  margin-block-start: 0;
+  margin-block-end: 0;
+
   margin: 32px auto auto auto;
-  font-family: 'Inter';
+  font-family: "Inter", "Arial ", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -10,9 +13,10 @@
   max-width: 360px;
 }
 
-@media screen and (max-width: 719px) {
+@media screen and (max-width: 320px) {
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
+    margin: 16px auto auto auto;
   }
 }

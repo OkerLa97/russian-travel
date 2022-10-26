@@ -1,14 +1,19 @@
 .place__paragraph {
-  font-family: 'Inter';
+  margin-block-start: 0;
+  margin-block-end: 0;
+  
+  font-family: "Inter", "Arial ", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
   color: #FFFFFF;
+
+  margin-top: 26px;
 }
 
-.place__paragraph:nth-child(2) {
-  margin-top: 26px;
+.place__paragraph:first-child {
+  margin-top: 0;
 }
 
 @media screen and (max-width: 768px) {
